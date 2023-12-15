@@ -1,0 +1,51 @@
+body {
+  height: 1000px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+button {
+  width: 200px;
+}
+
+.texto-info {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 45px;
+}
+
+.card {
+  width: 900px;
+}
+
+.nav-pills .nav-link {
+  color: black; 
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
+    background-color: #1f3667; 
+}
+
+.nav-pills .nav-link:hover {
+  color: white;
+}
+
+.btn-custom {
+  background-color: #1f3667; 
+  color: #fff;
+}
+
+.qrcode {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.text-muted {
+  padding-top: 15px;
+}

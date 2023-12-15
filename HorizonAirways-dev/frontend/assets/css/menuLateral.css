@@ -1,0 +1,83 @@
+/* Importando a fonte do google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+/* Configurações da fonte */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Configurações do menu lateral */
+nav.menu-lateral{
+    width: 10.5vh;
+    height: 100vh;
+    background-color: #9e9b9b;
+    padding: 3.5vh 0;
+    position: fixed;
+    box-shadow: 3px 0 0 #5f5c5c;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+/* Alteração do menu lateral para a versão expandida */
+nav.menu-lateral.expandir{
+    width: 40vh;
+}
+
+/* Icone do Horizon Airlines */
+.sidebar-logo{
+    padding-left: 1.5vh;
+    padding-bottom: 1.5vh;
+}
+.sidebar-logo > img{
+    width: 30vh;
+}
+
+/* Icone do botão expandir */
+.btn-expandir{
+    padding-left: 3.3vh;
+    padding-bottom: 1.7vh;
+}
+.btn-expandir > i{
+    color: white;
+    font-size: 3.3vh;
+    cursor: pointer;
+}
+
+/* Configuração de tirar os pontos ao lado dos icones da sidebar */
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+/* Configurações de escurecer os itens da sidebar selecionados e com o mouse em cima */
+ul li.item-menu{
+    transition: .2s;
+}
+ul li.ativo{
+    background-color: #5f5c5c;
+}
+ul li.item-menu:hover{
+    background-color: #5f5c5c;
+}
+
+/* Configurações dos textos e dos icones da sidebar */
+ul li.item-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 3.3vh;
+    display: flex;
+    line-height: 9vh;
+    padding-left: 1.5vh;
+}
+ul li.item-menu a .txt-link{
+    margin-left: 4vh;
+}
+ul li.item-menu a .icon > i{
+    font-size: 4vh;
+    margin-left: 1.7vh;
+}
